@@ -17,3 +17,5 @@ document.getElementById("reset").addEventListener("click", () => {
     document.getElementById("specify").required = false; // remove required attribute
 })
 
+
+console.log("hello manav")
