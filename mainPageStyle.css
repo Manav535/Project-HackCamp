@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f8efea;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.profilepicture {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.start_button {
+    background: white;
+    color: black;
+    display: block;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.start_button:hover {
+    background: navy;
+    color: white;
+
+}
