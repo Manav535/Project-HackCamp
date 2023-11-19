@@ -25,3 +25,23 @@ document.getElementById("reset").addEventListener("click", () => {
     distanceValue.innerHTML = "50 km";
     hourlyFeeValue.innerHTML = "50 $/hr";
 })
+
+function toggleSpecify() {
+    var dropdown = document.getElementById("visible-diversity");
+    var specifyDiv = document.getElementById("diversity-specify");
+
+    if (dropdown.value === "none" || dropdown.value === "other") {
+      specifyDiv.style.display = "none";
+      document.getElementById("diversity-specify").value = ""; // Clear input value if hidden
+    } else {
+      specifyDiv.style.display = "block";
+    }
+}
+
+    
+document.getElementById("reset").addEventListener("click", () => {
+    var specifyDiv = document.getElementById("diversity-specify");
+    specifyDiv.style.display = "none";
+    document.getElementById("diversity-specify").value = ""; // Clear input value if hidden
+})
+    
