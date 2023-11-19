@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Minder </title>
+        <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+
+        <link href="mentalHealthConcern.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="about">
+
+            <h2 class="name"> Mental Health Concerns</h2>
+
+            <p class="description">Please select concerns that you most identify with. You can select multiple or none as well. </p>
+
+            <form id="gridForm" action="therapistPreferences.html">
+
+                
+                <div id="grid">
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Anxiety</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Depression</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Abuse</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Cultural Issues</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Relationship Issues</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Disability Related Issues</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">LBGTQIA+ Related Issues</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Trauma</button>
+                      <button class="grid-btn" type="button" onclick="toggleSelection(this)">Others</button>
+                </div>
+                    
+
+                <div class="submit-buttons">
+                    <button type="reset" value="reset" id="reset">
+                    Reset
+                    </button>
+
+                    <button type="submit" value="submit" id="submit">
+                        Submit
+                    </button>
+                    
+                </div>  
+                  
+
+            </form>
+
+        </div>
+        
+    </body>
+    <script src="mentalHealthConcern.js"></script>
+</html>

@@ -1,0 +1,30 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f8efea;
+}
+
+#grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    text-align: center;
+    gap: 30px;
+}
+
+.grid-btn {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #3498db !important;
+    color: #fff;
+}
+
