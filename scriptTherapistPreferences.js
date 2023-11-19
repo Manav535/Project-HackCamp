@@ -22,6 +22,6 @@ hourlyFeeRange.oninput = function() {
 };
 
 document.getElementById("reset").addEventListener("click", () => {
-    distanceValue.innerHTML = distanceRange.value + " km";
-    hourlyFeeValue.innerHTML = hourlyFeeRange.value + " $/hr";
+    distanceValue.innerHTML = "50 km";
+    hourlyFeeValue.innerHTML = "50 $/hr";
 })
