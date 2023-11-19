@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Minder </title>
+        <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+
+        <link href="styleSecondPage.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="about">
+
+            <h2 class="name"> Therapist Preferences</h2>
+
+            <form id="survey-form">
+
+                <div class="form-control">
+                    <label for="therapist-gender" id="label-therapist-gender">
+                        Gender
+                    </label>
+                    <input type="text" id="therapist-gender" required />
+                </div>
+
+                <div class="form-control">
+                    <label for="therapist-language" id="label-therapist-language">
+                        Language
+                    </label>
+                    <input type="text" id="therapist-language" required />
+                </div>
+
+                <div class="form-control">
+                    <label for="distanceRange">Select distance (in km):</label>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="50" class="slider" id="distanceRange">
+                        <span id="distanceValue">50 km</span>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <label for="hourlyFeeRange">Select preferred hourly fee (under):</label>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="100" value="50" class="slider" id="hourlyFeeRange">
+                        <span id="hourlyFeeValue">50 $/hr</span>
+                    </div>
+                </div>
+                
+
+                <div class="submit-buttons">
+                    <button type="reset" value="reset" id="reset">
+                    Reset
+                    </button>
+                    <button type="submit" value="submit" id="submit">
+                    Submit
+                    </button>
+                </div>
+
+                
+               
+
+            </form>
+        
+        </div>
+        
+    </body>
+    <script src="scriptTherapistPreferences.js"></script>
+</html>

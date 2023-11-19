@@ -24,3 +24,16 @@ body {
     text-align: center;
 }
 
+.slidecontainer {
+    display: block;
+    align-items: center;
+}
+
+.slider {
+    width: 20%;
+}
+
+#distanceValue {
+    padding-left: 10px;
+}
+

@@ -10,3 +10,10 @@ if (element.id === "accessibility-yes") {
     document.getElementById("specify").required = false; // remove required attribute
 }
 }
+
+document.getElementById("reset").addEventListener("click", () => {
+    const specifyDiv = document.getElementById("accessibility-specify");
+    specifyDiv.style.display = "none";
+    document.getElementById("specify").required = false; // remove required attribute
+})
+
