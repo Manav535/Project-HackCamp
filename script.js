@@ -16,6 +16,3 @@ document.getElementById("reset").addEventListener("click", () => {
     specifyDiv.style.display = "none";
     document.getElementById("specify").required = false; // remove required attribute
 })
-
-
-
