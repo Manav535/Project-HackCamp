@@ -9,6 +9,13 @@ body {
 
 .form-control {
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-control label {
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .submit-buttons {
