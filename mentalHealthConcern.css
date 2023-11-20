@@ -1,18 +1,30 @@
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
     background: #f8efea;
+    margin: 0;
+}
+
+.options-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #grid {
-    align-items: center;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 150px);
+    align-items: center;
     text-align: center;
     gap: 30px;
+    padding: 20px
 }
 
 .grid-btn {
@@ -28,3 +40,22 @@ body {
     color: #fff;
 }
 
+.line {
+    height: 1px;
+    width: 565.184px;
+    background-color: #000;
+
+}
+
+.submit-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.mascot {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

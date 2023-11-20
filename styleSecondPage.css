@@ -1,16 +1,22 @@
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 
 body {
     background: #f8efea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .form-control {
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 .form-control label {
@@ -62,6 +68,13 @@ body {
 
 }
 
+.mascot {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
 
 
 
