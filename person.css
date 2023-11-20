@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f8efea;
+    /* border: 1px solid black; */
+}
+
+.about {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.profilepicture {
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.button_cross {
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.button_tick {
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.match {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url('Rename.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

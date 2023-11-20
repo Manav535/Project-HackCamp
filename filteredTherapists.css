@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f8efea;
+}
+.therapist-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.therapist-button {
+    width: 300px;
+    padding: 40px 60px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}

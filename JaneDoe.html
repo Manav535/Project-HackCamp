@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Minder </title>
+        <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+
+        <link href="person.css" rel="stylesheet" type="text/css">
+
+
+    </head>
+
+    <body>
+
+        <div class="about">
+
+            <img class="picture" src="JaneDoe.png">
+
+            <div class="button-container">
+                <button class="button_cross" onclick="goBack()"></button>
+                <button class="button_tick" onclick="showImg()"></button>
+            </div>
+            
+            <div class="match" id="match">
+                
+
+            </div>
+
+            
+
+
+        </div>
+        
+    </body>
+    <script>
+
+        function goBack() {
+            window.location.href = "filteredTherapists.html";
+        }
+        function showImg() {
+            document.getElementById("match").style.display = "block"
+            window.scrollTo(0,0)
+        }
+    </script>
+</html>

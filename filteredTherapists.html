@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Minder </title>
+    <link rel="icon" type="images/x-icon" href="images/favicon.ico">
+
+    <link href="filteredTherapists.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div class="therapist-buttons" id="therapistButtons"></div>
+
+    <div class="therapist-buttons" id="therapistButtons"></div>
+
+    <script>
+        // Retrieve filtered therapists from sessionStorage
+        var filteredTherapists = JSON.parse(sessionStorage.getItem('filteredTherapists')) || [];
+
+        // Display filtered therapists as buttons
+        var therapistButtonsDiv = document.getElementById('therapistButtons');
+        filteredTherapists.forEach(therapist => {
+            var button = document.createElement('a');
+            button.className = 'therapist-button';
+            button.textContent = therapist.name;
+            button.href = therapist.name.replace(/\s+/g, '') + '.html'; // Generate new HTML file name from therapist's name
+            therapistButtonsDiv.appendChild(button);
+        });
+    </script>
+</body>
+</html>
